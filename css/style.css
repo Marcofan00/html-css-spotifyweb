@@ -149,3 +149,32 @@ aside{
 #main li:hover{
     color: white;
 }
+
+#musica{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.copertine{
+    display: inline-block;
+    margin-right: 20px;
+    width: 170px;
+    margin-top: 30px;
+}
+.copertine img{
+    height: 170px;
+
+}
+
+.title-copertina{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+.subtitle{
+    color: rgb(156, 154, 154);
+    text-align: center;
+    font-size: 10px;
+}
+
