@@ -349,5 +349,24 @@ input[type=range]{
     width: 90%;
 }
 
+/* @media screen and (max-width: 878px){
+    #main{
+        width: 80%;
+    }
+       
+    #main ul li{
+        padding: 2% 1%;
+    }
+
+    #musica{
+        justify-content: flex-start;
+    }
+
+    .copertine{
+        width: 134px;
+        margin-right: 15px;
+    }
+    
+} */
 
 
