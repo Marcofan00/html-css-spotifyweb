@@ -179,22 +179,21 @@ a:hover{
     width: calc(100% / 6);
 }
 
-.play-hover{
+.copertine:hover #play{
+    display: block;
+}
+
+#play{
+    position: absolute;
     font-size: 50px;
     color: white;
     text-align: center;
-    margin-right: 10%;
-
-    /* display: none; */
+    margin-left: 4%;
+    display: none;
+    margin-top: 4%;
+    position: fixed;
 }
 
-/* .play-hover:hover{
-    display: block;
-} */
-#play{
-    position: relative;
-    
-}
 
 
 .copertine img{
