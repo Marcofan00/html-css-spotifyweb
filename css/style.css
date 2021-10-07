@@ -179,22 +179,39 @@ a:hover{
     width: calc(100% / 6);
 }
 
-.copertine:hover #play{
+.copertine:hover .play-hover>div{
     display: block;
 }
 
 #play{
-    position: absolute;
-    font-size: 50px;
-    color: white;
-    text-align: center;
-    margin-left: 4%;
-    display: none;
-    margin-top: 4%;
-    position: fixed;
+    
+    height: auto;
+    position: relative;
 }
 
+.layer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 170px;
+    width: 86%;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    font-size: 3rem;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
 
+.play-hover{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.play-hover>div{
+    display: none;
+}
 
 .copertine img{
     height: 170px; 
